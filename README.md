@@ -3,15 +3,13 @@
 
 Unofficial devkit and wiki for **grandMA3 plugin development**.
 
-MA3's Lua plugin API is powerful but barely documented. The official docs give you function signatures with no context, no examples, and no explanation of the dozens of undocumented capabilities buried in the engine. This repo fills that gap — every entry is tested on real hardware, includes working code, and tells you what actually happens when you call it.
+MA3's Lua plugin API is powerful but barely documented. The official docs give you function signatures with no context, no examples, and no explanation of the dozens of undocumented capabilities buried in the engine. This repo fills that gap — every entry is tested on real hardware, by real humans. I have been so tired of scrounging Google's third or fourth page to see if someone has the right keyword. My CTRL + F keys have worn completely out.
 
 ---
 
 ## What's in here
 
-**Wiki** — the main knowledge base. Organized by topic, not by alphabet. Each entry has:
-- What it does (one sentence)
-- Working code you can paste into a plugin
+**Wiki** - Still Trying to build everything out.
 - What version it was tested on
 - Screenshots where they help
 - Gotchas that will waste your afternoon if you don't know them
@@ -42,17 +40,18 @@ Some techniques go beyond what MA officially supports. These are marked clearly 
 
 | Marker | Meaning |
 |--------|---------|
-| `[STD] STANDARD` | Uses the documented or clearly-intended plugin API. Safe for production show files. |
-| `[UND] UNDOCUMENTED` | Uses real API surfaces that MA hasn't publicly documented. Works, but could break in a future version. |
-| `[SBX] SANDBOX EDGE` | Pushes against sandbox boundaries (editing `lib_menus`, using `io.*`, `os.*`, etc.). Development/lab use. Understand what you're doing before shipping this. |
-| `[WEB] WEBVIEW / JS` | Involves the WebView widget, HTML, or JavaScript execution inside the MA3 process. **Exposes the developer or end-user to a browser engine with file-system access.** Read the [WebView Security](wiki/WebView-Security.md) page before using any of this in a distributed plugin. |
+| `[STD] STANDARD` | Uses the documented plugin API. Safe for production show files. |
+| `[UND] UNDOCUMENTED` | Uses real API surfaces that MA hasn't publicly documented. Works, but we're only guessing. |
+| `[SBX] SANDBOX EDGE` | Pushes against sandbox boundaries (editing `lib_menus`, etc.). Development/lab use. Understand that this should never go on a lighting console, and you can brick your entire showfile. |
+| `[WEB] WEBVIEW / JS` | Involves the WebView widget, HTML, or JavaScript execution inside the MA3 process. **Exposes the developer or end-user to a browser engine with file-system access.**  |
 
 ---
 # !!! UNDER DEVELOPMENT !!!
 ## Tested on
 
-- **grandMA3 onPC 2.3.2**, Windows 10/11
-- Hardware testing done on an i9-13900K / RTX 4080 Super rig
+- **grandMA3 onPC v2.3.2.0**, Windows 111
+- Hardware testing done on an i9-13900K / RTX 4080 Super
+- **GrandMA3 Full Size v2.3.2.0
 
 Results may differ on older software versions, real console hardware, or MA3 onPC on macOS. Version-specific notes are included where known.
 
@@ -76,24 +75,6 @@ ma3-plugin-devkitapedia/
 
 Each probe is a standalone MA3 plugin. Install like any plugin:
 
-1. Copy the probe folder to `gma3_library/datapools/plugins/`
-2. Import in the console: **Menu → Plugins**
-3. Run: `Plugin "TaterProbe_XX"`
-4. Read the System Monitor for output (`Printf` with `[probe]` tag)
-
-Probes are non-destructive unless explicitly noted. They create nothing, delete nothing, and leave no residue.
-
----
-# !!! UNDER DEVELOPMENT !!!
-## How to contribute
-
-Run a probe on your build. Paste the System Monitor output into an issue. Include your MA3 version and platform (onPC/console, Windows/macOS).
-
-If you've found an undocumented function or behavior, open an issue or PR with:
-- What you called
-- What it returned
-- What version you tested on
-- A minimal code snippet that reproduces it
 
 ---
 # !!! UNDER DEVELOPMENT !!!
