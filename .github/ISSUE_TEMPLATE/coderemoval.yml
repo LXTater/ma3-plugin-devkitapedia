@@ -1,0 +1,29 @@
+name: CodeRemoval
+description: Request To Remove your code.
+title: "[Code Removal]: "
+labels: ["DevRequest"]
+projects: ["ma3-plugin-devkitapedia/main"]
+assignees:
+  - LXTater
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please note: Requests may take up to 7 days to process. I am a touring LD, and I do not always have the bandwith to get to these.
+  - type: input
+    id: contact
+    attributes:
+      label: MA-Forums-Username
+      description: Paste your MA-Forums username here, so I can get in touch if needed.
+      placeholder: https://forum.malighting.com/user/76810-lxtater/
+    validations:
+      required: true
+  - type: textarea
+    id: what-page?
+    attributes:
+      label: What Page?
+      description: Please provide the link to the page where your code is located.
+      placeholder: https://github.com/LXTater/ma3-plugin-devkitapedia/wiki/attribute-def-dump
+      value: "https://github.com/LXTater/ma3-plugin-devkitapedia/wiki/page-name"
+    validations:
+      required: true
