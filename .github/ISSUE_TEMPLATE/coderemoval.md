@@ -1,10 +1,12 @@
 ---
 name: Code Removal Request
 about: Request to have your code removed from this repository.
-title: "Code Removal Request"
+title: Code Removal Request
 labels: DevRequest
 assignees: ''
+
 ---
+
 body:
   - type: markdown
     attributes:
