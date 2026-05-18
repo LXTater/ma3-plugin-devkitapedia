@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please note: Requests may take up to 7 days to process- I am a touring LD and I do not always have the bandwith to get to these.
+        Please note: Requests may take up to 7 days to process- I am a touring LD, and I do not always have the bandwith to get to these.
   - type: input
     id: contact
     attributes:
@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-page?
+    id: what-page
     attributes:
       label: What Page?
       description: Please provide the link to the page where your code is located.
