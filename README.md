@@ -83,6 +83,14 @@ Each probe is a standalone MA3 plugin. Install like any plugin:
 **LXTater** — Lighting Design, Programmer, and very very tired of guessing.
 
 ---
+---
+# !!! UNDER DEVELOPMENT !!!
+## AI Declreation
+
+AI has been utilized in this project. For the sake of transparency, a [AI] label will be added to anything that generative AI was used for.
+The current use of AI in this project has been limited to: Data Parsing (Scanning through MA UI Files/Backend), and with help organizing and creating the MDs for this wiki.
+
+---
 # !!! UNDER DEVELOPMENT !!!
 ## Disclaimer
 
