@@ -1,5 +1,5 @@
 ---
-name: CodeRemoval
+name: coderemoval
 about: Request to remove your code from this repository.
 title: "[Removal Request]"
 labels: DevRequest
