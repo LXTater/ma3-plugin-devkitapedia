@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please note: Requests may take up to 7 days to process. I am a touring LD, and I do not always have the bandwith to get to these.
+        Please note: Requests may take up to 7 days to process- I am a touring LD and I do not always have the bandwith to get to these.
   - type: input
     id: contact
     attributes:
