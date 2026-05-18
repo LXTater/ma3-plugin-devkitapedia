@@ -1,14 +1,49 @@
 ---
-name: CodeRemoval
-about: Request to remove your code from this repository.
-title: "[Removal Request]"
+name: Code Removal Request
+about: Request to have your code removed from this repository.
+title: "Code Removal Request"
 labels: DevRequest
 assignees: ''
-
 ---
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the form below to request removal of your code from this repository.
 
-*** My MA Forums Username is: [InsertUsernameHere] (If Applicable)  
+  - type: input
+    id: ma-username
+    attributes:
+      label: MA Forums Username
+      description: Your username on the MA Lighting Forums, if applicable.
+      placeholder: e.g. LXTater
+    validations:
+      required: false
 
-*** If not linked from MA Forums, list the defined author from the page:  
+  - type: input
+    id: defined-author
+    attributes:
+      label: Defined Author Name
+      description: If your code was not linked from MA Forums, provide the author name as it appears on the page.
+      placeholder: e.g. John Doe
+    validations:
+      required: false
 
-***   I would like to remove my code from these pages: [Link to pages with your code]
+  - type: textarea
+    id: pages
+    attributes:
+      label: Pages Containing Your Code
+      description: Link to every page that contains code you want removed. One link per line.
+      placeholder: |
+        https://...
+        https://...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm that I am the original author of the code I am requesting to be removed.
+          required: true
