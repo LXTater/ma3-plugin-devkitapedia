@@ -44,6 +44,7 @@ Some techniques go beyond what MA officially supports. These are marked clearly 
 | `[UND] UNDOCUMENTED` | Uses real API surfaces that MA hasn't publicly documented. Works, but we're only guessing. |
 | `[SBX] SANDBOX EDGE` | Pushes against sandbox boundaries (editing `lib_menus`, etc.). Development/lab use. Understand that this should never go on a lighting console, and you can brick your entire showfile. |
 | `[WEB] WEBVIEW / JS` | Involves the WebView widget, HTML, or JavaScript execution inside the MA3 process. **Exposes the developer or end-user to a browser engine with file-system access.**  |
+| `[AI] AI Involvement` | If a certain task, plugin, etc has been created entirley by AI, or if generative AI was utilized and not 100% human vetted, it will have this tag.  |
 
 ---
 # !!! UNDER DEVELOPMENT !!!
