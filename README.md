@@ -22,7 +22,7 @@ MA3's Lua plugin API is powerful but barely documented. The official docs give y
 
 ## Trust tiers
 
-Every claim in this repo is marked with one of three tiers.
+Everything should include one of these tags
 
 | Badge | Meaning |
 |-------|---------|
@@ -36,14 +36,11 @@ If an entry doesn't have a badge, treat it as `PROVISIONAL`.
 # !!! UNDER DEVELOPMENT !!!
 ## Boundary markers
 
-Some techniques go beyond what MA officially supports. These are marked clearly so you know what you're getting into.
-
+If we are stretching the abilities of the LUA sandbox, or there's a less-than-normal method to do something, please include one of these tags:
 | Marker | Meaning |
 |--------|---------|
-| `[STD] STANDARD` | Uses the documented plugin API. Safe for production show files. |
 | `[UND] UNDOCUMENTED` | Uses real API surfaces that MA hasn't publicly documented. Works, but we're only guessing. |
-| `[SBX] SANDBOX EDGE` | Pushes against sandbox boundaries (editing `lib_menus`, etc.). Development/lab use. Understand that this should never go on a lighting console, and you can brick your entire showfile. |
-| `[WEB] WEBVIEW / JS` | Involves the WebView widget, HTML, or JavaScript execution inside the MA3 process. **Exposes the developer or end-user to a browser engine with file-system access.**  |
+| `[SBX] SANDBOX` | Pushes against sandbox boundaries (editing `lib_menus`, etc.). Development/lab use. Understand that this should never go on a lighting console, and you can brick your entire showfile. |
 | `[AI] AI Involvement` | If a certain task, plugin, etc has been created entirley by AI, or if generative AI was utilized and not 100% human vetted, it will have this tag.  |
 
 ---
