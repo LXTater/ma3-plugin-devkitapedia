@@ -28,7 +28,7 @@ Everything should include one of these tags
 |-------|---------|
 | `[V] VERIFIED` | Tested on hardware, log output confirmed. Build on this. |
 | `[P] PROVISIONAL` | Reasoned from MA source or partial testing. Probably right, verify before depending on it. |
-| `[?] UNKNOWN` | Documented as a question. Needs a probe. |
+| `[?] UNKNOWN` | Pulled from an API dump, or similar. Needs a probe/testing. |
 
 If an entry doesn't have a badge, treat it as `PROVISIONAL`.
 
@@ -40,8 +40,8 @@ If we are stretching the abilities of the LUA sandbox, or there's a less-than-no
 | Marker | Meaning |
 |--------|---------|
 | `[UND] UNDOCUMENTED` | Uses real API surfaces that MA hasn't publicly documented. Works, but we're only guessing. |
-| `[SBX] SANDBOX` | Pushes against sandbox boundaries (editing `lib_menus`, etc.). Development/lab use. Understand that this should never go on a lighting console, and you can brick your entire showfile. |
-| `[AI] AI Involvement` | If a certain task, plugin, etc has been created entirley by AI, or if generative AI was utilized and not 100% human vetted, it will have this tag.  |
+| `[SBX] SANDBOX` | Pushes against sandbox boundaries (editing `lib_menus`, injecting files into anywhere besides the datapool/gma3_library folders (colorthemes,media, etc) Understand that this should never go on a lighting console without extreme testing, as it can potentially lead you to reinstalling MA. |
+| `[AI] AI Involvement` |  If a certain task, plugin, etc has been created entirely by AI, or if generative AI was utilized, it should have this tag.  |
 
 ---
 # !!! UNDER DEVELOPMENT !!!
