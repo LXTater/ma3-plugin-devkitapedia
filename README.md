@@ -3,7 +3,7 @@
 
 Unofficial devkit and wiki for **grandMA3 plugin development**.
 
-MA3's Lua plugin API is powerful but barely documented. The official docs give you function signatures with no context, no examples, and no explanation of the dozens of undocumented capabilities buried in the engine. This repo fills that gap — every entry is tested on real hardware, by real humans. I have been so tired of scrounging Google's third or fourth page to see if someone has the right keyword. My CTRL + F keys have worn completely out.
+MA3's Lua plugin API is powerful but barely documented. I have been so tired of scrounging Google's third or fourth page to see if someone has the right keyword. My CTRL + F keys have worn completely out.
 
 ---
 
@@ -92,8 +92,8 @@ The current use of AI in this project has been limited to: Data Parsing (Scannin
 # !!! UNDER DEVELOPMENT !!!
 ## Disclaimer
 
-This is an unofficial community resource. Not affiliated with or endorsed by MA Lighting. All findings are based on reverse-engineering the publicly installed software on the developer's own machine. No proprietary source code is redistributed — only descriptions of observed behavior and original code written against the public API surface.
+This is an unofficial community resource. Not affiliated with or endorsed by MA Lighting.
 
-Use at your own risk. Don't crash the show.
+Use at your own risk. Don't crash the show ;-)
 
 # !!! UNDER DEVELOPMENT !!!
