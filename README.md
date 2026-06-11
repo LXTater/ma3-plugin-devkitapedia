@@ -21,8 +21,8 @@ Everything should include one of these tags
 
 | Badge | Meaning |
 |-------|---------|
-| `[Vx.x.x][y]` Verif | Tested on hardware, log output confirmed. Build on this. x.x = MA3 Big Version (2.4.2). [y] can be pulled from the next entry below. |
-| `[HW]` | Verified on offical MA3 Hardware with a built-in os (command wing xt is acceptable here.) . [HW], any MA3 hardware with built-in OS (Console, command wing XT, etc.);|
+| `[Vx.x.x][y]` Verified | Tested on hardware, log output confirmed. Build on this. x.x = MA3 Big Version (2.4.2). [y] can be pulled from the next entry below. |
+| `[HW]` Hardware Verified on | Verified on offical MA3 Hardware with a built-in os (command wing xt is acceptable here.) . [HW], any MA3 hardware with built-in OS (Console, command wing XT, etc.);|
 | `[onPC.X]`| [onPC], standalone onPC with no MA hardware in session; [onPC.X] VK/CW/DMX/Other(viz-key, command wing, DMX-Key, Other = onPC with PU, node, etc in the network) | 
 | `[Mac/Windows]` | If using onPC, add a Mac or windows tag next to it. |
 | `[P]` Provisional| Reasoned from MA source or partial testing. Probably right, verify before depending on it. |
