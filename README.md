@@ -21,15 +21,15 @@ Everything should include one of these tags
 
 | Verified Badges | Meaning |
 |-------|---------|
-| `[Vx.x.x][y]` Verified | Tested on hardware, log output confirmed. Build on this. x.x = MA3 Big Version (2.4.2). [y] can be pulled from the next entry below. |
-| `[HW]` Hardware Verified on | Verified on offical MA3 Hardware with a built-in os (command wing xt is acceptable here.) . [HW], any MA3 hardware with built-in OS (Console, command wing XT, etc.);|
-| `[onPC.X]`| [onPC], standalone onPC with no MA hardware in session; [onPC.X] VK/CW/DMX/Other(viz-key, command wing, DMX-Key, Other = onPC with PU, node, etc in the network) | 
-| `[Mac/Windows]` | If using onPC, add a Mac or windows tag next to it. |
+|`[Vx.x.x][y]` Verified | Tested on hardware, log output confirmed. Build on this. x.x = MA3 Big Version (2.4.2). [y] can be pulled from the next entry below. |
+|`[HW]` Hardware Verified on | Verified on offical MA3 Hardware with a built-in os (command wing xt is acceptable here.) . [HW], any MA3 hardware with built-in OS (Console, command wing XT, etc.);|
+|`[onPC.X]`| [onPC], standalone onPC with no MA hardware in session; [onPC.X] VK/CW/DMX/Other(viz-key, command wing, DMX-Key, Other = onPC with PU, node, etc in the network) | 
+|`[Mac/Windows]`| If using onPC, add a Mac or windows tag next to it. |
 
 | Unverified Badges | Meaning |
 |--------|---------|
-| `[P]` Provisional| Reasoned from MA source or partial testing. Probably right, verify before depending on it. |
-| `[?]` Unknown | Pulled from an API dump, or similar. Needs a probe/testing. Not fully understood. |
+|`[P]` Provisional| Reasoned from MA source or partial testing. Probably right, verify before depending on it. |
+|`[?]` Unknown| Pulled from an API dump, or similar. Needs a probe/testing. Not fully understood. |
 
 If an entry doesn't have a badge, treat it as `PROVISIONAL`.
 
@@ -39,9 +39,9 @@ If an entry doesn't have a badge, treat it as `PROVISIONAL`.
 If we are stretching the abilities of the LUA sandbox, or there's a less-than-normal method to do something, please include one of these tags:
 | Marker | Meaning |
 |--------|---------|
-| `[UND] UNDOCUMENTED` | Uses real API surfaces that MA hasn't publicly documented. Works, but not fully understood. |
-| `[SBX] SANDBOX` | 	Pushes against sandbox boundaries (editing `lib_menus`, injecting files into anywhere besides the datapool/gma3_library folders (colorthemes,media, etc) Understand that this should never go on a lighting console without extreme testing, as it can potentially lead you to reinstalling MA. |
-| `[AI] AI Involvement` |  If a certain task, plugin, etc has been created entirely by AI, or if generative AI was utilized, it should have this tag.  |
+| `[UND]` Undocumented| Uses real API surfaces that MA hasn't publicly documented. Works, but not fully understood. |
+| `[SBX]` Sandbox| Pushes against sandbox boundaries (editing `lib_menus`, injecting files into anywhere besides the datapool/gma3_library folders (colorthemes,media, etc) Understand that this should never go on a lighting console without extreme testing, as it can potentially lead you to reinstalling MA. |
+| `[AI]` AI Involvement| If a certain task, plugin, etc has been created entirely by AI, or if generative AI was utilized, it should have this tag. If utilizing AI, please also include details about what AI and the version. (ie Claude Opus 4.7 with thinking and High Effort.) |
 
 ---
 ## Template for hardware/software noting for Verified tags:
